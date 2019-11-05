@@ -7,3 +7,4 @@ num_2=int(input("Escriba un número mayor que %d. \n" %(num_1)))
 while num_1>num_2:
     num_2=int(input("%d no es mayor que %d. Escriba otro número. \n" %(num_2,num_1)))
 print("Los números que ha introducido son %d y %d. \n" %(num_1, num_2))
+input()

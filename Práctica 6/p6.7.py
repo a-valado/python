@@ -11,9 +11,9 @@ while suma<limite:
     num=int(input("Escriba otro valor. \n"))
     suma=suma+num
 lista.append(num)    
-print("El límite a superar era %d. La lista creada es " %(limite))
+print("El límite a superar era %d. La lista creada es: " %(limite), end=" ")
 for i in lista:
-    print(i,end=" ")
+    print(i, end=" ")
 print(". Ya que la suma total de los valores es %d." %(suma))
 input(" ")
 

@@ -5,7 +5,7 @@
 
 num=float(input("Escriba una nota entre 0 y 10.\n"))
 lista=[]
-while num>0 and num<10:
+while num>=0 and num<=10:
     lista.append(num)
     num=" " 
     num=float(input("Introduzca otra nota.\n"))
