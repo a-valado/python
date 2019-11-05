@@ -20,4 +20,5 @@ if vocal=="a" or vocal=="e" or vocal=="i" or vocal=="o" or vocal=="u":
         frase_nueva=frase_nueva.capitalize()
         return frase_nueva
 print(cambiaVocales(frase))
+input()
         

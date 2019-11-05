@@ -11,4 +11,5 @@ caracter=input("Introduzca un carácter. \n")
 def contador(nombre):
     resultado=nombre.count(caracter)
     return resultado
-print("%s aparece" %(caracter),contador(nombre),"veces.")
+print("El carácter %s aparece" %(caracter),contador(nombre),"veces.")
+input()
