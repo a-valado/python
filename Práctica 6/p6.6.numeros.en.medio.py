@@ -12,7 +12,7 @@ while medio>num_1 and medio<num_2:
    medio= int(input("Introduzca un número entre %d y %d. Para terminar, escriba un número fuera de ese rango.\n" %(num_1, num_2)))
    lista.append(medio)
 del lista[-1]
-print("Los números entre %d y %d que has escrito son" %(num_1,num_2))
+print("Los números entre %d y %d que ha escrito son" %(num_1,num_2))
 for i in lista:
     print (i, end= " ")
 input(" ")

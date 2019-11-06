@@ -26,5 +26,6 @@ while not respuesta == secreto:
         contador+=1
 
 print("¡Correcto! Lo ha adivinado y tan sólo ha necesitado %d intentos." %(contador))
+input()
 
     

@@ -5,7 +5,7 @@
 #y lo imprimirá por pantalla.
 
 print("Este programa cuenta el número de vocales de una frase")
-frase=input("Escriba la frase")
+frase=input("Escriba la frase.\n")
 
 def contadorAbascal(frase):
     resultado_a=frase.count("a")+frase.count("á")+frase.count("A")+frase.count("Á")
